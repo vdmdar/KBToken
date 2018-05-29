@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TokenTest"
-  s.version          = "1.1.0"
+  s.version          = "3"
   s.summary          = "Zip and unzip files in Swift."
 
 # This description is used to generate tags and improve search results.
