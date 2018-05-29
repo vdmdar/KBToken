@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Sources/*.{swift}', 'Sources/*.{c,h}', 'Sources/*.{inc}'
+  s.source_files = 'Sources/*.{swift}', 'Sources/*.{c,h}'
   s.public_header_files = 'Sources/*.h'
   s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/TokenTest/Sources/**' }
   s.xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(PODSROOT)/Sources/**' }
