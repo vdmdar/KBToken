@@ -1,4 +1,4 @@
 module ECC [system][extern_c] {
-    header "uECC.h"
+    private header "uECC.h"
     export *
 }
