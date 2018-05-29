@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TokenTest"
-  s.version          = "3"
+  s.version          = "3.1"
   s.summary          = "Zip and unzip files in Swift."
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/*.{swift}', 'Sources/*.{c,h}', 'Sources/*.{inc}'
   s.public_header_files = 'Sources/*.h'
-  s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '/Sources/**' }
+  s.pod_target_xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(SRCROOT)/TokenTest/Sources/**' }
   s.xcconfig = {'SWIFT_INCLUDE_PATHS' => '$(PODSROOT)/Sources/**' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.libraries = 'z'
