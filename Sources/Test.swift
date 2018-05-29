@@ -11,7 +11,7 @@ import ECC
 
 let curve = uECC_secp256r1()
 
-func printKeys() {
+public func printKeys() {
     var d = [UInt8](repeating: 0, count: 32)
     var z = [UInt8](repeating: 0, count: 64)
 
